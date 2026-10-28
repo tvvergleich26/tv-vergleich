@@ -1,15 +1,22 @@
 *{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f4f5f7;color:#222}
-header{background:#1f2a44;color:#fff;padding:16px 24px;font-size:20px;font-weight:bold}
-header small{font-weight:normal;font-size:13px;opacity:.8;margin-left:12px}
-main{max-width:980px;margin:0 auto;padding:24px}
-h1{font-size:26px;margin:0 0 8px}p{line-height:1.5}
-.grid{display:flex;gap:20px;flex-wrap:wrap;margin-top:20px}
-.card{flex:1;min-width:240px;background:#fff;border:1px solid #d5d8de;border-radius:8px;padding:16px;text-align:center;text-decoration:none;color:inherit}
-.card:hover{box-shadow:0 2px 10px rgba(0,0,0,.15)}
-.tv{height:90px;background:#1c2530;border:6px solid #333;border-radius:3px;margin:6px 24px 0}
-.stand{height:6px;width:50px;background:#555;margin:0 auto}.base{height:4px;width:90px;background:#555;margin:0 auto 10px}
-.card b{font-size:18px;display:block}.card span{display:block;color:#555;margin-top:4px}
+.in{max-width:1040px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:24px}
+.top{background:#111827;color:#d1d5db;font-size:12px;text-align:center;padding:6px}
+header{background:#fff;border-bottom:1px solid #e0e3e8}header .in{height:64px;justify-content:space-between}
+.logo{font-size:26px;font-weight:bold;color:#1f2a44;text-decoration:none}.logo span{color:#e8590c}
+.search{flex:1;max-width:420px;border:1px solid #cfd3da;border-radius:20px;padding:9px 16px;color:#999;font-size:14px;background:#fafafa}
+nav{background:#1f2a44}nav .in{height:42px;gap:28px;font-size:14px;color:#cbd2e1}nav .act{color:#fff;font-weight:bold;border-bottom:3px solid #e8590c;padding:11px 0 8px}
+main{max-width:1040px;margin:0 auto;padding:20px 24px}
+.crumb{font-size:13px;color:#777;margin-bottom:12px}.crumb a{color:#777}
+h1{font-size:26px;margin:0 0 6px}.lead{line-height:1.5;margin:0 0 8px}
+.grid{display:flex;gap:20px;flex-wrap:wrap;margin-top:16px}
+.card{flex:1;min-width:260px;background:#fff;border:1px solid #dde0e6;border-radius:8px;padding:16px;text-decoration:none;color:inherit;display:block}
+.card:hover{box-shadow:0 3px 12px rgba(0,0,0,.15)}
+.im{background:#f0f1f3;border-radius:6px;overflow:hidden}.im img,.pic img{display:block;width:100%;height:auto;border-radius:6px}
+.card h2{font-size:19px;margin:12px 0 2px}.sub{color:#666;font-size:14px}
+.price{font-size:26px;font-weight:bold;color:#1f2a44;margin-top:10px}.price.big{font-size:34px}
+.vat{font-size:12px;color:#777}.stock{font-size:13px;color:#2f8f46;margin-top:6px}
+.detail{background:#fff;border:1px solid #dde0e6;border-radius:8px;padding:24px;display:flex;gap:32px;flex-wrap:wrap}
+.detail .pic{flex:1;min-width:300px}.detail .info{flex:1;min-width:300px}
+.info p{line-height:1.6}table{border-collapse:collapse;width:100%;margin-top:8px}td{border-top:1px solid #e5e7eb;padding:8px 4px;font-size:14px}td:first-child{color:#666;width:40%}
 .back{display:inline-block;margin-top:24px;font-size:16px}
-.detail{background:#fff;border:1px solid #d5d8de;border-radius:8px;padding:24px;display:flex;gap:24px;flex-wrap:wrap}
-.detail .pic{width:260px}.detail ul{padding-left:20px;line-height:1.7}
-footer{max-width:980px;margin:0 auto;padding:16px 24px;font-size:12px;color:#777}
+footer{max-width:1040px;margin:0 auto;padding:16px 24px;font-size:12px;color:#777}
